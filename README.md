@@ -1,1 +1,2 @@
 # RAG
+The project is a question-answering chatbot where I used the RAG (Retrieval-Augmented Generation) technique. I have a corpus from which the top 5 relevant documents are being retrieved. For the retrieval model, I used BERT, which retrieves relevant documents from the corpus, and for the generation model, I used T5, which extracts and generates an answer to the query from those relevant documents. To store the corpus, I used a FAISS index for saving the documents in the desired format.
